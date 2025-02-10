@@ -40,40 +40,64 @@ p {
 
 
 /* --- NAVIGATION BAR --- */
+/* General navbar styles */
 .navbar {
+    display: flex;  /* Flexbox layout */
+    justify-content: space-between;  /* Space between the logo/name and navbar links */
+    align-items: center;  /* Vertically center the items */
     background-color: #333;
     padding: 10px;
-    text-align: right;
   }
   
-  .navbar ul {
+  .logo-container {
+    display: flex;
+  }
+  
+  .logo {
+    width: 40px;  /* Adjust logo size */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  /* .site-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+} */
+  
+  .navbar-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;  /* Align navbar links horizontally */
   }
   
-  .navbar li {
-    display: inline-block;
-    margin-right: 20px;
+  .navbar-links li {
+    margin-left: 20px;
   }
   
-  .navbar a {
+  .navbar-links a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;  /* Add some padding to make the link a clickable block */
-    display: block;      /* Make the anchor tag take up the full width of the list item */
+    padding: 10px 15px;
+    display: block;
   }
   
-  /* Hover effect: change background color */
-  .navbar a:hover {
-    background-color: #555; /* Change the background color on hover */
-    color: #fff; /* Optional: You can keep the text white or change it */
+  /* Hover effect */
+  .navbar-links a:hover {
+    background-color: #555;
+    color: #fff;
   }
-
-  /* Style the active link */
-  .navbar a.active {
-    font-weight: bold;  /* Make the active link bold */
-    background-color: #455; /* Highlight with a different background color */
-    color: white; /* Ensure the text is white when active */
+  
+  /* Active link styling */
+  .navbar-links a.active {
+    font-weight: 1000;
+    background-color: #921;
+    color: white;
   }
   
