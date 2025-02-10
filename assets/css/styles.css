@@ -1,0 +1,79 @@
+/* styles.css */
+
+
+/* --- FONTS --- */
+/* Import Google Font into styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Body Font */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Other font and layout styles */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #222;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+/* --- NAVIGATION BAR --- */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;  /* Add some padding to make the link a clickable block */
+    display: block;      /* Make the anchor tag take up the full width of the list item */
+  }
+  
+  /* Hover effect: change background color */
+  .navbar a:hover {
+    background-color: #555; /* Change the background color on hover */
+    color: #fff; /* Optional: You can keep the text white or change it */
+  }
+
+  /* Style the active link */
+  .navbar a.active {
+    font-weight: bold;  /* Make the active link bold */
+    background-color: #455; /* Highlight with a different background color */
+    color: white; /* Ensure the text is white when active */
+  }
+  
