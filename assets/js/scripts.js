@@ -15,7 +15,8 @@ const currentPage = window.location.pathname;
 
 // Loop through all links and add 'active' class to the current page
 links.forEach(link => {
-  if (link.href.includes(currentPage)) {
-    link.classList.add('active');
-  }
+    // Compare the current page's pathname with the href of the link
+    if (link.href.includes(currentPage) && currentPage !== "/") {
+      link.classList.add('active');
+    }
 });
