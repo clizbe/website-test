@@ -1,3 +1,12 @@
 [submodule "tulipa-static-website/themes/tailbliss1"]
 	path = tulipa-static-website/themes/tailbliss1
 	url = https://github.com/nusserstudios/tailbliss
+[submodule "tulipa-static-website/tulipa-static-website/themes/hugo"]
+	path = tulipa-static-website/tulipa-static-website/themes/hugo
+	url = https://github.com/gohugoio/hugo
+[submodule "tulipa-static-website/themes/hugo"]
+	path = tulipa-static-website/themes/hugo
+	url = https://github.com/gohugoio/hugo
+[submodule "tulipa-static-website/themes/hugo-fresh"]
+	path = tulipa-static-website/themes/hugo-fresh
+	url = https://github.com/StefMa/hugo-fresh
