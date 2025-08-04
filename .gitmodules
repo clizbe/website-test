@@ -1,0 +1,3 @@
+[submodule "tulipa-static-website/themes/tailbliss1"]
+	path = tulipa-static-website/themes/tailbliss1
+	url = https://github.com/nusserstudios/tailbliss
